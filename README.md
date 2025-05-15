@@ -1,5 +1,8 @@
 # connectivity-exporter
 
+![image](https://github.com/user-attachments/assets/30854511-f38c-4ba7-b24b-1a23413f070a)
+
+
 Inspired by this post: [https://antonz.org/is-online/](https://antonz.org/is-online/)
 
 Prometheus compatible exporter that checks connectivity to given HTTP URI. Default config.yaml checks public internet services, however, you can use it to check API status of your own applications. Don't abuse public services!
