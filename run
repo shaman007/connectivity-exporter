@@ -1,3 +1,1 @@
-#!/usr/bin/env bash
-set -euo pipefail
 exec python /app/check.py --config /app/config.yaml
