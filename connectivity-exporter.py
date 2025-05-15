@@ -9,7 +9,7 @@ import yaml
 from prometheus_client import start_http_server, Gauge
 
 DEFAULT_INTERVAL = 45
-DEFAULT_PORT = 8443
+DEFAULT_PORT = 9090
 
 # Prometheus metrics
 status_gauge = Gauge('connectivity_status', 'Connection status (1=OK, 0=Fail)', ['host'])
