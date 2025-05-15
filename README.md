@@ -29,7 +29,7 @@ Or via environment:
 
 ```bash
 export CONFIG=config.yaml
-export PORT=9000
+export PORT=9090
 export INTERVAL=30
 python check.py
 ```
