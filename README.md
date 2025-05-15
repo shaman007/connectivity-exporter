@@ -39,7 +39,7 @@ then scrape:
 ```yaml
 - job_name: connectivity-exporter
   static_configs:
-    - targets: connectivity-exporter.default.svc.cluster.local:8443
+    - targets: connectivity-exporter.default.svc.cluster.local:9090
 
 ```
 
