@@ -45,7 +45,8 @@ then scrape:
 
 ## Deployment
 
-Sample Dokerfile and K8S deployment are provided
+Sample Dokerfile and K8S deployment are provided.
+Image: harbor.andreybondarenko.com/library/connectivity-exporter:latest
 
 ## ToDo
 
