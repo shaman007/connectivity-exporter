@@ -1,5 +1,8 @@
 # connectivity-exporter
 
+![image](https://github.com/user-attachments/assets/30854511-f38c-4ba7-b24b-1a23413f070a)
+
+
 Inspired by this post: [https://antonz.org/is-online/](https://antonz.org/is-online/)
 
 Prometheus compatible exporter that checks connectivity to given HTTP URI. Default config.yaml checks public internet services, however, you can use it to check API status of your own applications. Don't abuse public services!
@@ -26,7 +29,7 @@ Or via environment:
 
 ```bash
 export CONFIG=config.yaml
-export PORT=9000
+export PORT=9090
 export INTERVAL=30
 python check.py
 ```
@@ -34,15 +37,17 @@ python check.py
 then scrape:
 
 ```yaml
-- job_name: 'connectivity-exporter'
+- job_name: connectivity-exporter
   static_configs:
-    - targets: ['connectivity-exporter.default.svc.cluster.local:8443']
+    - targets: connectivity-exporter.default.svc.cluster.local:9090
 
 ```
 
 ## Deployment
 
-Sample Dokerfile and K8S deployment are provided
+Sample Dokerfile and K8S deployment are provided.
+
+Image: harbor.andreybondarenko.com/library/connectivity-exporter:latest
 
 ## ToDo
 
