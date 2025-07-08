@@ -1,6 +1,7 @@
 # connectivity-exporter
 
 ![image](https://github.com/user-attachments/assets/30854511-f38c-4ba7-b24b-1a23413f070a)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fshaman007%2Fconnectivity-exporter.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fshaman007%2Fconnectivity-exporter?ref=badge_shield)
 
 
 Inspired by this post: [https://antonz.org/is-online/](https://antonz.org/is-online/)
@@ -52,3 +53,7 @@ Image: harbor.andreybondarenko.com/library/connectivity-exporter:latest
 ## ToDo
 
 Fancy hompage that shows current situation.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fshaman007%2Fconnectivity-exporter.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fshaman007%2Fconnectivity-exporter?ref=badge_large)
