@@ -6,7 +6,10 @@
 
 Inspired by this post: [https://antonz.org/is-online/](https://antonz.org/is-online/)
 
-Prometheus compatible exporter that checks connectivity to given HTTP URI. Default config.yaml checks public internet services, however, you can use it to check API status of your own applications. Don't abuse public services!
+Prometheus compatible exporter that checks connectivity to given HTTP URI. Default config.yaml checks public internet services, however, you can use it to check API status of your own applications. Don't abuse public services! There is fancy hompage that shows current situation.
+
+ - /metrics show Prometheus compatible metrics
+ - / homepage that shows current situation
 
 ## Usage
 
@@ -40,7 +43,7 @@ then scrape:
 ```yaml
 - job_name: connectivity-exporter
   static_configs:
-    - targets: connectivity-exporter.default.svc.cluster.local:9090
+    - targets: connectivity-exporter.default.svc.cluster.local/metrics:9090
 
 ```
 
